@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haz tu pedido</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="/img/logo.png" alt="" id="logo">
+                <ul>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/index.html#menu">Menú</a></li>
+                    <li><a href="/cliente/formulario.html">Haz tu pedido</a></li>
+                    <li><a href="/pastelero/inventario.html">Lista de pedidos</a></li>
+                    <li><a href="#info_contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="formulario">
+            <h3>Realiza tu pedido</h3>
+            
+            <form action="">
+                <label for="nombre">Ingresa tu nombre completo</label> <br>
+                <input type="text" name="nombre" id="" maxlength="250" placeholder="Ingresa nombre y apellidos" required> <br> <br>
+
+                <label for="number">Ingresa tu número de telefono</label> <br>
+                <input type="number" name="number" id="" placeholder="Ej. 834 444 4444" required> <br> <br>
+
+                <label for="email">Ingresa tu correo electronico</label> <br>
+                <input type="email" name="email" id="" placeholder="example@email.com" required> <br> <br>
+
+                <label for="descripcion">Agrega una descripción a tu pedido</label> <br>
+                <textarea name="" id="" cols="30" rows="7"></textarea> <br><br>
+
+                <label for="descripcion">Selecciona un sabor</label> <br>
+                <select name="" id="" required>
+                    <option value="-1" selected disabled>Selecciona un sabor</option>
+                    <option value="1">Chocolate</option>
+                    <option value="2">Vainilla</option>
+                    <option value="3">Fesa</option>
+                </select>   <br><br>
+
+                <label for="descripcion">Selecciona un adorno</label> <br>
+                <select name="" id="">
+                    <option value="-1" selected disabled>Selecciona un adorno</option>
+                    <option value="1">Cubierta de cerezas</option>
+                    <option value="2">Relleno de fruta</option>
+                </select> <br><br>
+
+                <input type="submit" value="Enviar" id="enviar">
+            </form>
+
+        </section>
+
+        <section id="">
+
+        </section>
+    </main>
+    
+    
+    <footer id="info_contacto">
+        <div id="direccion">
+            <h5>Dirección</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, aliquid.</p>
+        </div>
+        
+        <div>
+            <h5>Teléfono</h5>
+            <p>+52 834 444 4444</p>
+        </div>
+        
+        <div>
+            <h5>Horario de atención</h5>
+            <p>De lunes a viernes de 8am a 3pm </p>
+        </div>
+        
+    </footer>
+</body>
+</html>

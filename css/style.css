@@ -1,0 +1,155 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    margin-bottom: 50px;
+    box-shadow: 0px 1px 4px rgba(128, 128, 128, 0.275);
+}
+
+#logo{
+    width: 8%;
+    margin-left: 10px;
+}
+
+ul{
+    display: flex;
+    float: right;
+}
+
+ul li{
+    list-style: none;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    text-align: center;
+    font-size: x-large;
+}
+
+
+#portada{
+    background-image: url('/img/portada.png');
+    background-size: cover;
+    opacity: 0.85;
+    text-align: center;
+    padding: 150px;
+    color: white;
+}
+
+#portada h1{
+    font-size: 50px;
+    background-color: black;
+    width: 550px;
+    margin: 0 auto;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+
+section{
+    margin-bottom: 125px;
+}
+
+.fila_pasteles{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.tarjeta_pastel{
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+    -webkit-box-shadow: 2px 2px 5px rgb(230, 228, 228);
+     -moz-box-shadow: 2px 2px 5px rgb(230, 228, 228);
+}
+
+.imagen_tarjeta{
+    width: 100%;
+    border-radius: 10px; 
+}
+
+.contenido_tarjeta{
+    padding: 15px;
+}
+
+.nombre_pastel{
+    font-weight: bold;
+    text-align: left;
+}
+
+.descripcion{
+    text-align: left;
+}
+
+.precio{
+    background-color: brown;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+}
+
+
+#info_contacto{
+    padding: 10px;
+    padding-bottom: 50px;
+    color: white;
+    background-color: rgb(150, 133, 133);
+    display: flex;
+}
+
+#info_contacto div{
+    margin-right: 100px;
+}
+
+#direccion{
+    width: 350px;
+}
+
+#formulario{
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+#enviar{
+    float: right;
+    padding: 10px 15px;
+    background-color: brown;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+
+table{
+    width: 100%;
+}
+table thead th{
+    color: #fff;
+    background-color: #6c7ae0;
+}
+table thead th:first-child{
+    border-top-left-radius: 15px;
+    padding: 10px;
+}
+table thead th:last-child{
+    width: 150px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+}
+
+table tbody tr td:last-child{
+    text-align: right;
+    padding: 10px;
+}
